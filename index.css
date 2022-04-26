@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+    margin: 2px;
+    background-image: url(fondo-manillas.jpg);
+    background-color: black;
+    background-blend-mode: soft-light;
+    background-color: rgb(76, 78, 78,0.4);
+    background-position: center center;
+    background-size: cover;
+}
+.cabecera{
+    background-color: rgba(84, 97, 84, 0.4);
+    border: 1px solid ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0px 16px;
+    
+    
+    
+}
+.logo{
+    height:50px;
+}
+.menu{
+    font-weight: 900px;
+    
+    
+}
+a{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+a:hover{
+    color: rgb(20, 199, 29);
+}
+ .cabecera h3{
+    margin-right: 180px;
+}
